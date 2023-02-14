@@ -1,0 +1,13 @@
+<?php
+
+namespace Stripe;
+
+/**
+ * @property int $subscriptions;
+ */
+interface StripeClientInterface
+{
+    public function __get(string $name): mixed;
+}
+
+// vim: ft=php

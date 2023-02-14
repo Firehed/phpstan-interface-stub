@@ -1,0 +1,20 @@
+{
+    "name": "firehed/intf-repro",
+    "require": {
+        "stripe/stripe-php": "^10.5"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Firehed\\IntfRepro\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eric Stern",
+            "email": "eric@ericstern.com"
+        }
+    ]
+}

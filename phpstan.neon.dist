@@ -1,0 +1,10 @@
+# vim: ft=yaml
+parameters:
+    excludePaths:
+        - vendor
+    level: max
+    paths:
+        - .
+    stubFiles:
+        # - stubs/BaseStripeClientInterface.stub
+        - stubs/StripeClientInterface.stub
